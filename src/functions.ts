@@ -10,12 +10,12 @@ async function hashText(text: string) {
 }
 
 // Example Usage: Get hash value and store in a variable
-export async function hashedString(text: string) {
+export async function getHashedString(text: string) {
   const hashedValue = await hashText(text);
   return hashedValue;
 }
 
-export const deviceSignature = () => {
+export const getDeviceSignature = () => {
   const data = {
     userAgent: navigator.userAgent,
     platform: navigator.platform,
@@ -25,7 +25,7 @@ export const deviceSignature = () => {
   };
 
   const stringifiedData = JSON.stringify(data);
-  const hashedData = hashedString(stringifiedData);
+  const hashedData = getHashedString(stringifiedData);
 
   return hashedData;
 };
