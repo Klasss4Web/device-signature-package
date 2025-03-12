@@ -1,5 +1,3 @@
-import { SayHelloProps } from "./types";
-
 export const generateHash = () => {
   const data = {
     userAgent: navigator.userAgent,
