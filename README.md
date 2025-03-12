@@ -1,4 +1,4 @@
-# **get-device-signature**
+# **get-device-signature/getHashedString**
 
 _A lightweight library to generate a unique device signature using browser attributes and SHA-256 hashing._
 
