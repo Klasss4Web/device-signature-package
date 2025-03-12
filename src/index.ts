@@ -1,3 +1,2 @@
-export const sayHello = () => {
-  console.log("Say Hello");
-};
+export * from "./functions";
+export * from "./types";
