@@ -1,6 +1,6 @@
-// src/index.ts
-var sayHello = () => {
-  console.log("Say Hello");
+// src/functions.ts
+var sayHello = ({ firstName, lastName, age }) => {
+  console.log(`Hello, ${firstName} ${lastName}`);
 };
 export {
   sayHello

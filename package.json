@@ -9,6 +9,9 @@
   "scripts": {
     "build": "tsup"
   },
+  "repository": {
+    "url": ""
+  },
   "keywords": [
     "get",
     "unique",

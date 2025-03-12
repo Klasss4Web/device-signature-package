@@ -1,3 +1,9 @@
-declare const sayHello: () => void;
+type SayHelloProps = {
+    age: number;
+    firstName: string;
+    lastName?: string;
+};
 
-export { sayHello };
+declare const sayHello: ({ firstName, lastName, age }: SayHelloProps) => void;
+
+export { type SayHelloProps, sayHello };
