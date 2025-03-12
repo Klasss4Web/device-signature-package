@@ -20,15 +20,15 @@ var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: tru
 // src/index.ts
 var index_exports = {};
 __export(index_exports, {
-  sayHello: () => sayHello
+  generateHash: () => generateHash
 });
 module.exports = __toCommonJS(index_exports);
 
 // src/functions.ts
-var sayHello = ({ firstName, lastName, age }) => {
-  console.log(`Hello, ${firstName} ${lastName}`);
+var generateHash = () => {
+  console.log("Hello");
 };
 // Annotate the CommonJS export names for ESM import in node:
 0 && (module.exports = {
-  sayHello
+  generateHash
 });

@@ -1,7 +1,7 @@
 // src/functions.ts
-var sayHello = ({ firstName, lastName, age }) => {
-  console.log(`Hello, ${firstName} ${lastName}`);
+var generateHash = () => {
+  console.log("Hello");
 };
 export {
-  sayHello
+  generateHash
 };

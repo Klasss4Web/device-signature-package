@@ -1,6 +1,6 @@
 {
   "name": "get-device-signature",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This function retrieves a unique signature for your device",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
