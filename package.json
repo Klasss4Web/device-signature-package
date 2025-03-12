@@ -24,19 +24,15 @@
     "url": ""
   },
   "keywords": [
-    "get",
-    "unique",
-    "device",
-    "signature",
-    "device",
-    "id",
-    "device",
-    "identity"
+    "get unique device",
+    "device signature",
+    "device id",
+    "device identity",
+    "generate hashed string"
   ],
-  "author": "Emmanuel Cchade",
+  "author": "Emmanuel Ochade",
   "license": "MIT",
   "devDependencies": {
-    "tsup": "^8.4.0",
     "typescript": "^5.8.2"
   }
 }
