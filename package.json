@@ -1,0 +1,28 @@
+{
+  "name": "get-device-signature",
+  "version": "1.0.0",
+  "description": "This function retrieves a unique signature for your device",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "type": "module",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "get",
+    "unique",
+    "device",
+    "signature",
+    "device",
+    "id",
+    "device",
+    "identity"
+  ],
+  "author": "Emmanuel Cchade",
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^8.4.0",
+    "typescript": "^5.8.2"
+  }
+}
