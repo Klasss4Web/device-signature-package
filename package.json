@@ -1,0 +1,38 @@
+{
+  "name": "get-device-signature",
+  "version": "2.2.7",
+  "description": "This function retrieves a unique signature for your device",
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "type": "module",
+  "types": "dist/index.d.ts",
+  "exports": {
+    "import": "./dist/index.mjs",
+    "require": "./dist/index.cjs"
+  },
+  "files": [
+    "dist/index.mjs",
+    "dist/index.cjs",
+    "dist/types/index.d.ts"
+  ],
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build": "tsc && mv dist/index.js dist/index.mjs",
+    "prepublishOnly": "npm run clean && npm run build"
+  },
+  "repository": {
+    "url": ""
+  },
+  "keywords": [
+    "get unique device",
+    "device signature",
+    "device id",
+    "device identity",
+    "generate hashed string"
+  ],
+  "author": "Emmanuel Ochade",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.8.2"
+  }
+}
