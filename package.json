@@ -1,13 +1,24 @@
 {
   "name": "get-device-signature",
-  "version": "2.2.0",
+  "version": "2.2.7",
   "description": "This function retrieves a unique signature for your device",
-  "main": "./dist/index.js",
-  "module": "./dist/index.mjs",
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
   "type": "module",
-  "types": "./dist/index.d.ts",
+  "types": "dist/index.d.ts",
+  "exports": {
+    "import": "./dist/index.mjs",
+    "require": "./dist/index.cjs"
+  },
+  "files": [
+    "dist/index.mjs",
+    "dist/index.cjs",
+    "dist/types/index.d.ts"
+  ],
   "scripts": {
-    "build": "tsup"
+    "clean": "rm -rf dist",
+    "build": "tsc && mv dist/index.js dist/index.mjs",
+    "prepublishOnly": "npm run clean && npm run build"
   },
   "repository": {
     "url": ""

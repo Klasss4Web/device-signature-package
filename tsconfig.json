@@ -1,14 +1,15 @@
 {
   "compilerOptions": {
+    "module": "NodeNext",
+    "target": "ESNext",
+    "moduleResolution": "NodeNext",
     "outDir": "dist",
     "rootDir": "src",
-    "module": "CommonJS",
-    "target": "ES6",
-    "strict": true,
-    "esModuleInterop": true,
-    "moduleResolution": "Node",
     "declaration": true,
-    "sourceMap": true
+    "declarationDir": "dist/types",
+    "strict": true,
+    "removeComments": true,
+    "noEmitOnError": true
   },
   "include": ["src"],
   "exclude": ["dist", "node_modules"]
