@@ -1,1 +1,1 @@
-export * from "./functions";
+export { getHashedString, getDeviceSignature } from "./functions";
